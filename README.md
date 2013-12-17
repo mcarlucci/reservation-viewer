@@ -1,4 +1,4 @@
 reservation-viewer
 ==================
 
-Simple REST API built using Django REST Framework. Consumed by AngularJS framework
+Simple HTML5/AngularJS application with a REST backend implemented using Django REST Framework. Add-ons: Grappelli
