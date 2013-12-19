@@ -4,7 +4,7 @@ app.factory('reservation', function($http) {
 
   function getUrl(id) {
     id = typeof id !== 'undefined' ? id : '';
-    return 'http://127.0.0.1:8000/api/reservations/' + id + '?format=json';
+    return 'http://reservation-viewer.herokuapp.com/api/reservations/' + id + '?format=json';
   }
 
   return {
